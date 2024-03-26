@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+input {
+  height:28px;
+  border-radius: 4px;  
+  margin-right: 5px;
+}
+button{
+  height:31px;
+  width:109px;
+  outline:none;
+}
+button :hover{
+  border:1px solid black;
+}
+.results{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.document{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:60%;
+  padding:10px;
+}
+.content{
+  padding:0;
+  align-self: flex-start;
+}
+.break{
+  width:99%;
+}
+.path{
+  text-decoration: underline;
+  color:blue;
+  cursor: pointer;
+}

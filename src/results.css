@@ -1,0 +1,52 @@
+.response-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.results {
+  border:1px solid green;
+  width:70%;
+}
+
+.all-filters-container {
+  border: 1px solid red;
+  width:30%;
+}
+
+.document {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.document p {
+  margin: 5px 0;
+}
+
+.path {
+  color: blue;
+}
+
+.break {
+  margin-top: 20px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.dropdown{
+  width:15%;
+  cursor: pointer;
+}
