@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Results from './Results';
 import './App.css';
 
+// this is my main code.
+
 function App() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);

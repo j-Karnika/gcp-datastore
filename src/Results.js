@@ -41,6 +41,7 @@ const Results = ({ documents, summary }) => {
           </select>
         </div>
       </div>
+      <h1>Documents:</h1>
       <div className="results">
         {filteredDocuments.map((document) => (
           <div key={document.id} className="document">
